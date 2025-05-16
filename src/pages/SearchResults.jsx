@@ -22,7 +22,7 @@ function SearchResults() {
         const data = await response.json();
         setResults(data.meals || []);
       } catch (error) {
-        console.error("Erreur lors de la recherche rapide", error);
+        console.error("Error during quick search", error);
       } finally {
         setLoading(false);
       }
@@ -37,7 +37,7 @@ function SearchResults() {
 
   return (
     <div className="py-8">
-      <h1 className="title">Résultats pour "{query}"</h1>
+      <h1 className="title">Results for "{query}"</h1>
 
       {loading ? (
         <div className="loading-spinner">
@@ -62,7 +62,7 @@ function SearchResults() {
         </div>
       ) : (
         <p className="text-center text-secondary">
-          Aucun résultat trouvé pour "{query}".
+          No results found for "{query}".
         </p>
       )}
     </div>

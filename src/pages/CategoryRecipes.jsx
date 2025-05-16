@@ -39,7 +39,7 @@ function CategoryRecipes() {
 
   return (
     <div className="py-8">
-      <h1 className="title">Recettes {category}</h1>
+      <h1 className="title">Recipes {category}</h1>
 
       {recipes.length > 0 ? (
         <div className="grid">
@@ -60,7 +60,7 @@ function CategoryRecipes() {
         </div>
       ) : (
         <p className="text-center text-secondary">
-          Aucune recette trouvée dans cette catégorie.
+          No recipes found for this category.
         </p>
       )}
     </div>
