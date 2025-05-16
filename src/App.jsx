@@ -6,6 +6,7 @@ import AdvancedSearch from "./pages/AdvancedSearch";
 import SearchResults from "./pages/SearchResults";
 import RecipeDetail from "./components/RecipeDetail";
 import CategoryRecipes from "./pages/CategoryRecipes";
+import AreaRecipes from "./pages/AreaRecipes";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/search" element={<SearchResults />} />
             <Route path="/recipe/:id" element={<RecipeDetail />} />
             <Route path="/category/:category" element={<CategoryRecipes />} />
+            <Route path="/area/:area" element={<AreaRecipes />} />
             <Route
               path="*"
               element={

@@ -68,7 +68,7 @@ function Home() {
   };
 
   const handleAreaClick = (area) => {
-    navigate(`/category/${area}`);
+    navigate(`/area/${area}`);
   };
 
   if (loading) {
