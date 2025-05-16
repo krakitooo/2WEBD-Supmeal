@@ -7,6 +7,7 @@ import SearchResults from "./pages/SearchResults";
 import RecipeDetail from "./components/RecipeDetail";
 import CategoryRecipes from "./pages/CategoryRecipes";
 import AreaRecipes from "./pages/AreaRecipes";
+import AreaRecipes from "./pages/AreaRecipes";
 
 function App() {
   return (
